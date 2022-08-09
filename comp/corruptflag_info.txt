@@ -1,0 +1,54 @@
+computed f3e93c2f, expected f11d93ca
+
+
+0000035c IDAT
+
+00000500 0d -> 01 (three bytes from end)
+
+computed 5daddd12, expected 58cc1797
+00004358 third set of four bytes change from expected -> computed
+
+offset 0c380
+filter type 5 : line 0000c440 second set 4 bytes, 05 FINE
+		line 0000c620 fifth set 4 bytes, 05 -> 01
+		line 0000c65c second set 4 bytes, 0c -> 01
+		line 0000c760 third set 4 bytes, 0f -> 01
+		line 0000c850 fourth set 4 bytes, 18 -> 01
+		
+computed 764e8e45, expected a9436732 (line 10374)
+
+14398 0x27
+	line 14438 first set 27 -> 01
+	(computed a37d7ef4, expected 5c8fc4a0) line 18394
+	
+offset 183a4 37 0x25
+	line 18524 first set, 25 -> 01
+	line 18574 second set , 2e -> 01
+	(computed 2fa789a1, expected b647dafe) line 1c3a4
+	
+	
+offset 3c410 26, 0x1a
+	line 3c6cc second set 1a -> 01
+	line 3ca50 fourth set 26 -> 01
+	(computed 095a71ea, expected 30f0cd29) line 4040c
+	
+offset 44428 12 0c
+	line 44444 first set 0c -> 01
+	line 4446c third set 06 -> 01
+	line 445d4 second set 06 -> 01
+	line 445d4 third set 06 -> 01
+	line 4473c first set 06 -> 01
+	line 44750 fourth set 06 -> 01
+	line 447a0 first set 06 -> 01
+	line 447dc fifth set 06 -> 01
+	line 44a20 third set 06 -> 01
+	line 44a70 fifth set 06 -> 01
+	line 44b88 fifth set 06 -> 01
+	line 44df4 second set 11 -> 01
+	line 45010 second set 18 -> 01
+	line 450b0 seocond set 0b -> 01
+	line 4536c second set 0b -> 01
+	line 45394 fifth set 1f -> 01
+	line 453f8 fourth set 1f -> 01
+	(computed efa19b21, expected 5ebc5271) line 4842c
+	

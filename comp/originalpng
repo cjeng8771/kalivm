@@ -1,0 +1,5 @@
+File: corrupt (363830 bytes)
+  chunk IHDR at offset 0x0000c, length 13
+    15000 x 24255 image, 32-bit RGB+alpha, non-interlaced
+  CRC error in chunk IHDR (computed bb4494dd, expected f11d93ca)
+ERRORS DETECTED in corrupt
